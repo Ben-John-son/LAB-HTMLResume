@@ -1,3 +1,135 @@
 body {
   background-color: salmon;
+  font-family: roboto ;
+  color: aquamarine;
+  margin: 0;
+  
+}
+
+.navi {
+  display: flex;
+  flex-direction: row;
+justify-items: flex-start;
+  padding:10px;
+  background-color: rgb(226, 68, 68);
+  margin-top: 0;
+}
+
+.uTube {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  right:0;
+  top: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction:column;
+  align-items: self-start;
+  line-height: 3px;
+  margin-left: 10px;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color:aquamarine;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(177, 226, 43)
+}
+
+.image {
+  display: block;
+  position: relative;
+ margin-left: 25px;
+}
+
+.gunter {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  right: 0;
+}
+
+.simon {
+  /* display: flex;
+  flex-direction: row;
+ justify-content: center;
+ justify-items: center; */
+ position: relative;
+  width: 140px;
+  height: 140px;
+  margin-left: 695px;
+}
+
+img {
+  border-radius: 50%;
+  filter:  drop-shadow(0 0 0.9rem rgb(7, 98, 134));
+}
+
+.beaker {
+  width: 20px;
+  height: 20px;
+}
+
+.iceK {
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+ justify-items: center;
+  width: 80px;
+  height: 80px;
+  margin-left: 640px;
+  margin-top: none;
+  top: 0;
+  left: 0;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+ align-content: center;
+ align-items: center;
+ text-decoration: underline;
+ text-shadow: 2px 2px rgb(43, 174, 226);
+}
+
+
+
+h2 {
+  
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  margin-top: 1px;
+  margin-left: 15px;
+}
+
+p {
+  margin-top: 1px;
+  text-shadow: 1px;
+  line-height: 2;
 }
